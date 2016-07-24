@@ -1,0 +1,2 @@
+Garchomp,dragon,ground,182,じしん,げきりん,null,null
+MegaBlaziken,fire,fight,233,ばかじから,フレアドライブ,null,null
