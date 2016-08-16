@@ -1,7 +1,7 @@
 
 public class Trick{
-    String type,name;
-    int attack;
+    String type,name,category;
+    int attack,accuracy;
     private boolean find = false;
     String[] stream;
     public Trick(String name,TrickList list){
@@ -10,7 +10,9 @@ public class Trick{
             if (name.equals(stream[0])){
                 this.name=stream[0];
                 type=stream[1];
-                attack=Integer.parseInt(stream[2]);
+                category=stream[2];
+                accuracy=Integer.parseInt(stream[3]);
+                attack=Integer.parseInt(stream[4]);
                 find=true;
                 System.out.println(list.str.get(i));
                 break;
